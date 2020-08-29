@@ -66,7 +66,8 @@ export default class TeamsMessageActionWebPart extends BaseClientSideWebPart<ITe
     if (teamId && channelId) {
       response = await _aadHttpClient.get(`https://graph.microsoft.com/beta/teams/${teamId}/channels/${channelId}/messages/${parentMessageId}`, AadHttpClient.configurations.v1);
     }
-    else if (chatId) {//If chatId is present, it means the message action was invoked in either a teams 1:1 chat or a group chat
+    else if (chatId) {
+    //If chatId is present, it means the message action was invoked in either a teams 1:1 chat or a group chat
 
       response = await _aadHttpClient.get(`https://graph.microsoft.com/beta/chats/${chatId}/messages/${parentMessageId}`, AadHttpClient.configurations.v1);
 
