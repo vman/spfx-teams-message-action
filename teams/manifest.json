@@ -25,7 +25,7 @@
     "accentColor": "#FFFFFF",
     "bots": [
         {
-            "botId": "12398f9e-b1df-4f75-823f-c9032eca87e7",
+            "botId": "fa498f9e-b1df-4f75-823f-c9032eca87e7",
             "scopes": [
                 "personal"
             ],
@@ -35,18 +35,19 @@
     ],
     "composeExtensions": [
         {
-            "botId": "12398f9e-b1df-4f75-823f-c9032eca87e7",
+            "botId": "fa498f9e-b1df-4f75-823f-c9032eca87e7",
             "canUpdateConfiguration": false,
             "commands": [
                 {
                     "id": "augOpenSPFxWebpart",
                     "type": "action",
-                    "title": "Open SPFx webpart",
+                    "title": "Invoke Static SPFx action",
                     "description": "",
                     "initialRun": false,
                     "fetchTask": false,
                     "context": [
-                        "message"
+                        "message",
+                        "compose"
                     ],
                     "taskInfo": {
                         "title": "SPFx web part",
@@ -54,6 +55,17 @@
                         "width": "800",
                         "url": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamstaskhostedapp.aspx%3Fteams%26personal%26componentId=919277ea-54da-451b-a5eb-de94fc14dd39%26forceLocale={locale}"
                       }
+                },
+                {
+                    "id": "augOpenSPFxWebpartDyn",
+                    "type": "action",
+                    "title": "Invoke Dynamic SPFx action",
+                    "description": "",
+                    "initialRun": false,
+                    "fetchTask": true,
+                    "context": [
+                        "message"
+                    ]
                 }
             ]
         }
