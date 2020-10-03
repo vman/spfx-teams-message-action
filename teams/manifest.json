@@ -25,9 +25,10 @@
     "accentColor": "#FFFFFF",
     "bots": [
         {
-            "botId": "fa498f9e-b1df-4f75-823f-c9032eca87e7",
+            "botId": "8cad8ddb-94f6-4870-af38-d9c14e0073ba",
             "scopes": [
-                "personal"
+                "personal",
+                "team"
             ],
             "supportsFiles": false,
             "isNotificationOnly": false
@@ -35,7 +36,7 @@
     ],
     "composeExtensions": [
         {
-            "botId": "fa498f9e-b1df-4f75-823f-c9032eca87e7",
+            "botId": "8cad8ddb-94f6-4870-af38-d9c14e0073ba",
             "canUpdateConfiguration": false,
             "commands": [
                 {

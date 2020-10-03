@@ -38,7 +38,7 @@ export default class TeamsMessageActionWebPart extends BaseClientSideWebPart<ITe
       <div class="${styles.teamsMessageAction}">
         <div class="${styles.container}">
           <div class="${styles.row}">
-              <span class="${styles.title}">SPFx web part inside Teams message action!</span>
+              <span class="${styles.title}">SPFx web part inside Teams task modules!</span>
           </div>
             <div class="${styles.row}">
               <span class="${styles.subTitle}">Team Id (O365 Group Id):</span>
