@@ -1,9 +1,9 @@
 {
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
     "manifestVersion": "1.7",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "id": "3df1d33d-a751-40c5-8181-3b9334340aef",
-    "packageName": "uk.co.augmentech.teams.messageaction",
+    "packageName": "uk.co.augmentech.teams.messages",
     "developer": {
         "name": "Vardhaman Deshpande",
         "websiteUrl": "https://www.vrdmn.com/",
@@ -15,12 +15,12 @@
         "outline": "outline.png"
     },
     "name": {
-        "short": "SPFx Teams message action",
-        "full": "Use SPFx webparts for Teams message actions"
+        "short": "SPFx Teams messages",
+        "full": "Use SPFx webparts in Teams messages"
     },
     "description": {
-        "short": "Use SPFx webparts for Teams message actions",
-        "full": "Demo app for using SPFx webparts for Teams message actions"
+        "short": "Use SPFx webparts for Teams messages",
+        "full": "Demo app for using SPFx webparts for Teams messages"
     },
     "accentColor": "#FFFFFF",
     "bots": [
